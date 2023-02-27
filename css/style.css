@@ -172,7 +172,7 @@
 .about-us-caption::before {
 	content: "";
 	position: absolute;
-	top: 130%;
+	top: 100%;
 	left: 50%;
 	transform: translate(-50%, 50%);
 	opacity: 0.9;
@@ -183,7 +183,7 @@
 
 @media (max-width: 700px) {
 	.about-us-caption::before {
-		top: 150%;
+		top: 100%;
 	}
 
 }
@@ -632,6 +632,7 @@
 
 	.menu {
 		position: absolute;
+		z-index: 100;
 		top: 0;
 		margin-top: 50px;
 		left: 0;
