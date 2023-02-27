@@ -700,6 +700,10 @@
 	color: #fdc073;
 }
 
+.advantageTitle h1 {
+	margin: 0;
+}
+
 .circle {
 	width: 35px;
 	height: 35px;
@@ -860,7 +864,7 @@
 	resize: none;
 }
 
-.subminWrapper input{
+.submitWrapper input{
 	color: black;
 	border-color: #adff2f;
 	background-color: #84be2e;
@@ -872,7 +876,7 @@
 	border-radius: 5px;
 	padding: 5px;
 }
-.subminWrapper input:hover{
+.submitWrapper input:hover{
 	transition: 0.3s;
 	color: white;
 	border-radius: 15px;
@@ -1010,7 +1014,7 @@ option:hover{
 	.contactsTitle{
 		padding-top: 5px;
 	}
-	.subminWrapper{
+	.submitWrapper{
 		text-align: center;
 		padding-bottom: 5px;
 	}
