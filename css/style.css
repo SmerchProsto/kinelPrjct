@@ -975,6 +975,7 @@ option:hover{
 	padding: 10px;
 	text-align: center;
 	color: #fdc073;
+	margin: 0 auto;
 }
 .achivementsСontainer {
 	display: grid;
