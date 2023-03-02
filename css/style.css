@@ -1,4 +1,6 @@
-
+* {
+	font-family: 'Open Sans', sans-serif !important;
+}
 		/* Container */
 .container {
 	display: flex;
