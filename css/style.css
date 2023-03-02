@@ -788,7 +788,9 @@
 	background-color: #fdc073;
 	text-align: center;
 }
-
+.underFooter p{
+	margin: 0 auto;
+}
 .btn:hover{
 	color: antiquewhite;
 	filter: drop-shadow(0 0 20px antiquewhite);
