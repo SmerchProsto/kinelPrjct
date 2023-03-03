@@ -833,6 +833,10 @@
 	padding: 5px;
 	color: #fdc073;
 }
+.formTitle h3{
+	margin: 0;
+	padding: 0;
+}
 .formWrapper{
 	padding: 15px;
 	background-color: #616161;
