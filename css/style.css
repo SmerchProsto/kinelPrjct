@@ -231,6 +231,7 @@
 }
 
 .information-item-caption, .information-item-paragraph {
+	color: #CC7200;
 	margin: 0;
 	text-align: center;
 }
