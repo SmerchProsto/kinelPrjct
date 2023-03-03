@@ -1057,6 +1057,7 @@ option:hover{
 		/*Personal settings*/
 * {
 	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 .popup-img {
@@ -1251,11 +1252,11 @@ option:hover{
 html, body {
 	margin: 0;
 	padding: 0;
-	font-family: "Open Sans", sans-serif;
+	font-family: 'Open Sans', sans-serif !important;
 }
 
 h1,h2,h3,h4,h5,h6 {
-	font-family: "Righteous", cursive;
+	font-family: 'Open Sans', sans-serif !important;
 	color: #CC7200;
 }
 
