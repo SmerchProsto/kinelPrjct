@@ -756,7 +756,7 @@
 	width: 35px;
 	height: 35px;
 	overflow: hidden;
-	padding: 5px;
+	padding: 10px 10px 10px 5px;
 }
 .email input{
 	background-color: #2b2b2b;
