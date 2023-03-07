@@ -22,7 +22,7 @@ if (selectElem !== null) {
 	selectElem.addEventListener('change', function() {
 		let index = selectElem.selectedIndex;
 		let value = selectElem.value;
-		pElem.innerHTML = `<div class=smartLine><p>Номер телефона: <a href="tel:${value}">${value}</a></p></div>`;
+		pElem.innerHTML = `<div class=smartLine><p>Номер телефона: <a href="tel:${value}"><br>${value}</a></p></div>`;
 	});
 }
 
