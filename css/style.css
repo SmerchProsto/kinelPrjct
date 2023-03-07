@@ -1276,6 +1276,7 @@ h1,h2,h3,h4,h5,h6 {
 	opacity: 0;
 }
 .btn-up {
+	z-index: 1;
 	position: fixed;
 	background-color: #fdc073;
 	right: 20px;
