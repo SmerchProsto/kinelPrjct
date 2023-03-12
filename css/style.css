@@ -255,7 +255,7 @@
 	top: 100%;
 	left: 50%;
 	opacity: 0.9;
-	width: 1.3em;
+	width: 1.5em;
 	height: 0.08em;
 	transform: translateX(-50%);
 	background-color: #000000;
@@ -363,19 +363,15 @@
 
 .gallery-item-information {
 	position: absolute;
-	top: 25%;
-	left: 0;
+	top: 50%;
+	left: 50%;
 	z-index: 2;
 	transition-delay: 0.2s;
 	transition-duration: 0.3s;
+	transform: translate(-50%, -50%);
 	opacity: 0;
+	padding: 0 2vw 0 2vw;
 	text-align: center;
-}
-
-@media (max-width: 700px) {
-	.gallery-item-information {
-		top: 15%;
-	}
 }
 
 .gallery-item::before {
