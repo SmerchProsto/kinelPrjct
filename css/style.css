@@ -258,6 +258,7 @@
 	width: 1.5em;
 	height: 0.08em;
 	transform: translateX(-50%);
+	padding-left: 2vw;
 	background-color: #000000;
 }
 
