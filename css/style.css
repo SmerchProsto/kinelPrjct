@@ -162,7 +162,8 @@
 
 .about-us-caption {
 	position: relative;
-	margin-bottom: 7vh;
+	margin-bottom: 4vh;
+	padding-bottom: 2vh;
 	font-size: 3em;
 	font-weight: 500;
 	text-align: center;
@@ -227,36 +228,37 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #ffffff;
+}
 
+.information-item * {
+	margin: 0 0 4vh 0;
+}
+
+.information-item *:last-child {
+	margin-bottom: 0;
 }
 
 .information-item-caption, .information-item-paragraph {
 	color: #CC7200;
-	margin: 0;
 	text-align: center;
 }
 
 .information-item-caption {
 	position: relative;
+	padding-bottom: 2vh;
 }
+
 
 .information-item-caption::before {
 	content: "";
 	position: absolute;
-	top: 120%;
-	left: 25%;
+	top: 100%;
+	left: 50%;
 	opacity: 0.9;
-	width: 1.2em;
+	width: 1.3em;
 	height: 0.08em;
+	transform: translateX(-50%);
 	background-color: #000000;
-}
-
-.information-item * {
-	margin-bottom: 4vh;
-}
-
-.information-item *:last-child {
-	margin-bottom: 0;
 }
 
 .information-item-img {
@@ -303,8 +305,6 @@
 	font-size: 2em;
 	font-weight: 100;
 }
-
-
 
 	/*Product-gallery*/
 
