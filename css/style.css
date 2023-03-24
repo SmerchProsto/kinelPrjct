@@ -765,17 +765,17 @@
 }
 /*footer*/
 .footer{
+	width: 100%;
 	padding: 15px;
 	background-color: #161616;
-	display: grid;
-	grid-template-columns: 7fr 7fr 7fr 7fr;
+	display: flex;
+	justify-self: start;
+    	justify-content: end;
 }
 .links-title h3{
 	color: #fdc073;
 }
-.links{
-	padding: 5px;
-}
+
 .link{
 	padding-top: 5px;
 }
