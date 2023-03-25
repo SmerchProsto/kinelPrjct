@@ -164,6 +164,7 @@
 .detail-link-text {
 	display: flex;
 	align-items: center;
+	cursor: pointer;
 }
 
 		/*About-us*/
