@@ -779,7 +779,7 @@
 .link{
 	padding-top: 5px;
 }
-.link a{
+.link a, .link p{
 	text-decoration: none;
 	color: antiquewhite;
 }
