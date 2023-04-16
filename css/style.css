@@ -242,7 +242,7 @@
 	background-color: white; /*for grid*/
 }
 
-@media (max-width: 700px) {
+@media (max-width: 930px) {
 	.information-items {
 		grid-template-columns: none;
 	}
@@ -389,7 +389,7 @@
 	list-style: none;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 930px) {
 	.product-gallery-items {
 		grid-template-columns: none;
 	}
