@@ -319,10 +319,11 @@
 	border-left: 2em solid #ffffff;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 940px) {
 	.information-item-img:nth-child(odd)::before {
 		bottom: 0;
 		right: 40%;
+		transform: translateX(-50%);
 		border-right: 2em solid transparent;
 		border-bottom: 2em solid #ffffff;
 		border-left: 2em solid transparent;
@@ -331,9 +332,20 @@
 	.information-item-img:nth-child(even)::before {
 		top: 0;
 		left: 40%;
+		transform: translateX(50%);
 		border-right: 2em solid transparent;
 		border-top: 2em solid #ffffff;
 		border-left: 2em solid transparent;
+	}
+}
+
+@media (max-width: 700px) {
+	.information-item-img:nth-child(odd)::before {
+		transform: translateX(0);
+	}
+
+	.information-item-img:nth-child(even)::before {
+		transform: translateX(0);
 	}
 }
 
