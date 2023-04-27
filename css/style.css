@@ -608,7 +608,7 @@
 	color: #61dafb;
 }
 .logo-nav a:hover{
-	color: antiquewhite;
+	color: #ffffff;
 }
 .menu {
 	display: flex;
@@ -752,7 +752,7 @@
 	color: #61dafb;
 }
 .advantageText{
-	color: antiquewhite;
+	color: #ffffff;
 }
 
 .advantageTitle{
@@ -780,7 +780,7 @@
 }
 .link a, .link p{
 	text-decoration: none;
-	color: antiquewhite;
+	color: #ffffff;
 }
 .link a:hover{
 	color: #61dafb;
@@ -802,8 +802,8 @@
 	margin: 0 auto;
 }
 .btn:hover{
-	color: antiquewhite;
-	filter: drop-shadow(0 0 20px antiquewhite);
+	color: #ffffff;
+	filter: drop-shadow(0 0 20px #ffffff);
 }
 
 .services-bottom{
