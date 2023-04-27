@@ -84,7 +84,7 @@ if (galleryBlock !== null) {
 
 function checkElementForSlider() {
 	if (headingOfHeader !== null && paragraphsOfHeader !== null && (headingOfHeader.length != 0 && paragraphsOfHeader.length != 0)) {
-		slideInterval = setInterval(nextSlide,3000);
+		slideInterval = setInterval(nextSlide,10000);
 	}
 
 }
