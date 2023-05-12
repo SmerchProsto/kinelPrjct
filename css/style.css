@@ -840,7 +840,7 @@
 }
 .formWrapper{
 	padding: 15px;
-	background-color: #616161;
+	background-color: #4f4f4f;
 	border-radius: 15px;
 }
 .inputField{
@@ -851,7 +851,7 @@
 .formInput{
 	width: 35%;
 	padding: 5px;
-	background-color: antiquewhite;
+	background-color: white;
 	border-radius: 15px;
 	outline: 0;
 	outline-offset: 0;
@@ -863,19 +863,22 @@
 .textPlace textarea{
 	width: 100%;
 	height:250px;
-	background-color: antiquewhite;
+	background-color: white;
 	border-radius: 15px;
 	outline:none;
 	padding: 5px;
-	border: 1px solid rgb(0, 0, 0);
+
 	box-sizing: border-box;
 	resize: none;
 }
-
+.submitWrapper{
+	display: flex;
+	justify-content: flex-end;
+	padding: 5px;
+}
 .submitWrapper input{
-	color: black;
-	border-color: #adff2f;
-	background-color: #84be2e;
+	color: white;
+	background-color: #161616;
 	border: none;
 	outline: none;
 	font-size: 16px;
@@ -886,9 +889,10 @@
 }
 .submitWrapper input:hover{
 	transition: 0.3s;
+	background-color: #61dafb;
 	color: white;
 	border-radius: 15px;
-	filter: drop-shadow(0 0 5px #adff2f);
+	filter: drop-shadow(0 0 5px #61dafb);
 }
 .map{
 	height: 100%;
@@ -912,18 +916,18 @@
 }
 .management{
 	padding: 5px;
-	color: antiquewhite;
+	color: white;
 }
 .adressElement{
 	padding: 5px;
 }
 .adress p{
 	margin: 0;
-	color: antiquewhite;
+	color: white;
 }
 .adress a{
 	text-decoration: none;
-	color: antiquewhite;
+	color: white;
 }
 .adress a:hover{
 	color: #61dafb;
@@ -933,7 +937,7 @@
 }
 .phone a{
 	text-decoration:none;
-	color: antiquewhite;
+	color: white;
 }
 .phone a:hover{
 	color: #61dafb;
@@ -950,25 +954,25 @@
 	padding: 5px;
 }
 select{
-	background-color: antiquewhite;
+	background-color: white;
 	border-radius: 5px;
 }
 option{
 	border-radius: 5px;
-	background-color: antiquewhite;
+	background-color: white;
 }
 option:hover{
 	background-color: #61dafb;
 }
 .smartLine a{
 	text-decoration:none;
-	color: antiquewhite;
+	color: white;
 }
 .smartLine p{
-	color: antiquewhite;
+	color: white;
 }
 #p {
-	color: antiquewhite;
+	color: white;
 }
 .smartLine a:hover{
 	color: #61dafb;
