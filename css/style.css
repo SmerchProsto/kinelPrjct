@@ -1004,7 +1004,32 @@ option:hover{
 	transition: 1s;
 	transform: scale(1.1);
 }
-
+/*Мощности*/
+.powerArticle{
+	background-color: #2b2b2b;  
+	height: 100vh;
+}
+.powerContainer{
+	width: 1200px;
+	margin: 0 auto;
+	padding: 10px;
+	background-color:  #4f4f4f;
+	height: 100%;
+}
+.powerTitle{
+	text-align: center;
+}
+.powerLink{
+	padding: 10px;
+	
+}
+.powerLink a{
+	text-decoration: none;
+	color: #61dafb;
+}
+.powerLink a:hover{
+	color: white;
+}
 @media (max-width: 850px) {
 	.achivementsСontainer {
 		display: block;
