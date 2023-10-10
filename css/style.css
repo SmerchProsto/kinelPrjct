@@ -942,8 +942,15 @@
 .phone a:hover{
 	color: #61dafb;
 }
+.politics{
+	margin: 0 auto;
+	text-align: center;
+}
 .smartDirectoryWrapper{
 	display: none;
+}
+.smartDirectoryWrapper p{
+	color: white;
 }
 .smartDirectory{
 	margin-top: 2%;
